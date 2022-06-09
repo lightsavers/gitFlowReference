@@ -1,9 +1,10 @@
-#
-# Author: lightsavers
-# Created: 06092022
-#
 
-# Git flow sample run
+```
+Author: lightsavers
+Created: 06092022
+``1
+
+# Git Workflow Sample Run
 
 1. Initialize git repo in local directory (only done once)
 
@@ -39,17 +40,17 @@ git add .
 ```
 
 
-	* Or, to add one file
+> * Or, to add one file
 
-	```
-	git add <specificFileName1>
-	```
+> ```
+> git add <specificFileName1>
+> ```
 
-	* Or. to add specific several files
+> * Or. to add specific several files
 
-	```
-	git add <specificFileName1> <specificFileName2> <specificFileName3>
-	```
+> ```
+> git add <specificFileName1> <specificFileName2> <specificFileName3>
+> ```
 
 
 > * Specify user.email of target git account or if first time commit
