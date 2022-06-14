@@ -1,0 +1,112 @@
+#
+# Author: lightsavers
+# Created: 06092022
+#
+
+# Git flow sample run
+
+1. Initialize git repo in local directory (only done once)
+
+```
+git init
+```
+
+2. create feature branch from dev or main branch
+
+```
+git checkout -b <feature> <dev>
+```
+
+
+3. Check status in current branch
+
+```
+git status
+```
+
+
+4. Make changes to target files
+
+```
+<< you make changes to your files in this step >> 
+```
+
+
+5. use . (dot) to add all files in directory
+
+```
+git add .
+```
+
+
+	1. Or, to add one file
+
+	```
+	git add <specificFileName1>
+	```
+
+	2. Or. to add specific several files
+
+	```
+	git add <specificFileName1> <specificFileName2> <specificFileName3>
+	```
+
+
+6. Specify user.email of target git account or if first time commit
+
+```
+git config --local user.name <username>
+```
+
+7. Specify user.email of target git account or if first time commit
+
+```
+git config --local user.email <username@example.com>
+```
+
+
+8. Add commit comment
+
+``` 
+git commit -m "This is a commit comment" 
+```
+
+
+9. Add remote branch (if first time only)
+
+```
+git remote add origin https://github.com/targetUserName/targetBranchName.git
+```
+
+
+10. Push commits to remote branch <feature>
+
+```
+git push -u origin <feature> (if working from copy of <dev> branch)
+```
+
+
+11. Switch to <dev> branch
+
+```
+git checkout <dev>
+```
+
+
+12. Pull commits information
+
+```
+git pull
+```
+
+13. Send commits to <dev> origin 
+
+```
+git pull origin <dev>
+```
+
+14 Push commits to remote branch <dev>
+
+```
+git push
+```
