@@ -23,3 +23,10 @@ git remote add origin https://github.com/userName/branchName.git
 git branch -M main
 git push -u origin main
 ```
+
+# Edit remote origin URL after repository name has been modified on github
+
+```
+git remote -v
+git remote set-url origin https://github.com/userName/branchName.git
+```
