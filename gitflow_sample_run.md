@@ -106,8 +106,16 @@ git pull
 git pull origin <dev>
 ```
 
-12 Push commits to remote branch <dev>
+12. Push commits to remote branch <dev>
 
 ```
 git push
+```
+
+13. Remove unrelated files from remote github repo
+
+```
+git rm --cached SampleFile.MD
+git commit -m "Removing unrelated files"
+git push origin main
 ```
